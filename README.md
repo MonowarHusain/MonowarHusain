@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **Java**
 
-- 📝 I regularly write articles on [monowaromi] ([blog.monowar.me](https://blog.monowar.me/))
+- 📝 I regularly write articles on ([monowaromi](https://blog.monowar.me/))
 
 -  My IAAC Ambassador Profile <a href="https://iaac.space/en/monhusain">Monowar Husain</a>
 
