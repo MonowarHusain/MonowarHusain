@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Monowar Husain</h1>
 <h3 align="center">Undergraduate Student, BracU</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=monowarhusain&label=Profile%20views&color=0e75b6&style=flat" alt="monowarhusain" /> </p>
+<!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=monowarhusain&label=Profile%20views&color=0e75b6&style=flat" alt="monowarhusain" /> </p> -->
 
 <p align="left"> <a href="https://twitter.com/monowarhusain" target="blank"><img src="https://img.shields.io/twitter/follow/monowarhusain?logo=twitter&style=for-the-badge" alt="monowarhusain" /></a> </p>
 
