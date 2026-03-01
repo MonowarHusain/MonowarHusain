@@ -1,23 +1,55 @@
 <h1 align="center">Hi 👋, I'm Monowar Husain</h1>
 <h3 align="center">Undergraduate Student, BracU</h3>
 
-<!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=monowarhusain&label=Profile%20views&color=0e75b6&style=flat" alt="monowarhusain" /> </p> -->
+<p align="center"> 
+  <img src="https://komarev.com/ghpvc/?username=monowarhusain&label=Profile%20views&color=0e75b6&style=flat" alt="monowarhusain" /> 
+</p>
 
-<p align="left"> <a href="https://twitter.com/monowarhusain" target="blank"><img src="https://img.shields.io/twitter/follow/monowarhusain?logo=twitter&style=for-the-badge" alt="monowarhusain" /></a> </p>
+<p align="center"> 
+  <a href="https://twitter.com/monowarhusain" target="blank">
+    <img src="https://img.shields.io/twitter/follow/monowarhusain?logo=twitter&style=for-the-badge" alt="monowarhusain" />
+  </a> 
+</p>
+
+---
+
+### 🚀 About Me
 
 - 🌱 I’m currently learning **Java**
+- 📝 I regularly write articles on [M0N0W4R](https://ac.monowar.me/)
+- 🏅 IAAC Ambassador: [View Profile](https://iaac.space/en/monhusain)
+- 📫 How to reach me: **monowarhusainomi@gmail.com**
+- ⚡ Fun fact: **I have watched 600+ movies.**
 
-- 📝 I regularly write articles on ([M0N0W4R](https://ac.monowar.me/))
+---
 
--  My IAAC Ambassador Profile <a href="https://iaac.space/en/monhusain">Monowar Husain</a>
+### 🛠 Languages and Tools
 
-- 📫 How to reach me **monowarhusainomi@gmail.com**
+<p align="left"> 
+  <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> 
+  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> 
+  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
+  <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> 
+  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
+</p>
 
-- ⚡ Fun fact **I watched 600+ movies.**
+---
 
+### 📊 GitHub Stats
 
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs?username=monowarhusain&show_icons=true&locale=en&layout=compact&hide_border=true&title_color=0e75b6" alt="monowarhusain" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=monowarhusain&show_icons=true&locale=en&hide_border=true&title_color=0e75b6" alt="monowarhusain" />
+</p>
 
-<h3 align="left">Connect with me:</h3>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=monowarhusain&theme=default&hide_border=true" alt="monowarhusain" />
+</p>
+
+---
+
+### 🤝 Connect with me
+
 <p align="left">
 <a href="https://dev.to/monowarhusain" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="monowarhusain" height="30" width="40" /></a>
 <a href="https://twitter.com/monowarhusain" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="monowarhusain" height="30" width="40" /></a>
@@ -27,12 +59,3 @@
 <a href="https://www.youtube.com/@monowar_rior" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="monowar_omi" height="30" width="40" /></a>
 <a href="https://www.hackerrank.com/profile/monowarhusain" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="@monowar_husain" height="30" width="40" /></a>
 </p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=monowarhusain&show_icons=true&locale=en&layout=compact" alt="monowarhusain" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=monowarhusain&show_icons=true&locale=en" alt="monowarhusain" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=monowarhusain&" alt="monowarhusain" /></p>
