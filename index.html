@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Monowar Husain | Researcher Profile</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* --- Minimalist LaTeX-Inspired Theme --- */
+        :root {
+            --bg: #ffffff;
+            --text-main: #111111;
+            --text-muted: #444444;
+            --link-blue: #0366d6;
+            --rule-color: #dddddd;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.6;
+            font-size: 15px;
+            -webkit-font-smoothing: antialiased;
+            padding: 60px 20px;
+        }
+
+        .document {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        a {
+            color: var(--link-blue);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Typography */
+        h1,
+        h2,
+        h3 {
+            font-family: 'Lora', serif;
+            font-weight: normal;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 8px;
+            color: #000;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin: 48px 0 24px 0;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--rule-color);
+            color: #222;
+        }
+
+        .subtitle {
+            font-family: 'Lora', serif;
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            font-style: italic;
+            margin-bottom: 24px;
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: var(--text-main);
+            text-align: justify;
+        }
+
+        /* Contact Header */
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            font-size: 0.95rem;
+            margin-bottom: 48px;
+            font-family: 'Inter', monospace;
+        }
+
+        .contact-info a {
+            color: var(--text-muted);
+            border-bottom: 1px solid transparent;
+        }
+
+        .contact-info a:hover {
+            color: var(--link-blue);
+            border-bottom: 1px solid var(--link-blue);
+            text-decoration: none;
+        }
+
+        .separator {
+            color: #ccc;
+        }
+
+        /* --- CV Grid Layout --- */
+        .cv-entry {
+            display: grid;
+            grid-template-columns: 140px 1fr;
+            gap: 24px;
+            margin-bottom: 32px;
+        }
+
+        .cv-meta {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            text-align: right;
+            padding-top: 2px;
+        }
+
+        .cv-content h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 4px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .cv-content .org {
+            font-style: italic;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+            font-family: 'Lora', serif;
+        }
+
+        .tech-tags {
+            font-family: SFMono-Regular, Consolas, monospace;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin: 8px 0;
+            background: #f8f9fa;
+            display: inline-block;
+            padding: 2px 6px;
+            border: 1px solid #eee;
+        }
+
+        ul {
+            margin-left: 18px;
+            margin-bottom: 16px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        /* --- Correspondence Form (Academic Style) --- */
+        .correspondence-form {
+            background: #fafafa;
+            border: 1px solid var(--rule-color);
+            padding: 32px;
+            margin-top: 16px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-family: 'Lora', serif;
+            font-style: italic;
+            color: var(--text-main);
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            background: #ffffff;
+            border: 1px solid var(--rule-color);
+            font-family: 'Inter', sans-serif;
+            font-size: 0.95rem;
+            color: var(--text-main);
+            transition: border-color 0.2s ease;
+            border-radius: 0;
+            /* Sharp corners for print/academic feel */
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--link-blue);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .submit-btn {
+            background: var(--text-main);
+            color: #ffffff;
+            border: none;
+            padding: 12px 24px;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+
+        .submit-btn:hover {
+            background: var(--link-blue);
+        }
+
+        #form-status {
+            margin-top: 16px;
+            font-size: 0.9rem;
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Responsive */
+        @media (max-width: 650px) {
+            .cv-entry {
+                grid-template-columns: 1fr;
+                gap: 8px;
+            }
+
+            .cv-meta {
+                text-align: left;
+                font-weight: 500;
+                color: #000;
+                padding-top: 0;
+            }
+
+            .correspondence-form {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="document">
+
+        <header>
+            <h1>Md. Monowar Husain</h1>
+            <div class="subtitle">Prospective PhD Student | Undergraduate Researcher</div>
+
+            <div class="contact-info">
+                <a href="mailto:monowarhusainomi@gmail.com">monowarhusainomi@gmail.com</a>
+                <span class="separator">|</span>
+                <a href="https://github.com/MonowarHusain" target="_blank">github.com/MonowarHusain</a>
+                <span class="separator">|</span>
+                <a href="https://www.linkedin.com/in/monowarhusain/" target="_blank">linkedin.com/in/monowarhusain</a>
+                <span class="separator">|</span>
+                <a href="https://cgpacalc.pro.bd" target="_blank">cgpacalc.pro.bd</a>
+            </div>
+
+            <p>I am an undergraduate researcher in Computer Science and Engineering at BRAC University. My objective is
+                to pursue a Ph.D. focusing on the intersection of scalable distributed systems, applied artificial
+                intelligence, and privacy-preserving architectures. I possess a strong foundation in computational
+                mathematics and low-level algorithmic implementation.</p>
+        </header>
+
+        <section>
+            <h2>Education</h2>
+
+            <div class="cv-entry">
+                <div class="cv-meta">Expected May 2026</div>
+                <div class="cv-content">
+                    <h3>Bachelor of Science in Computer Science and Engineering</h3>
+                    <div class="org">BRAC University — Dhaka, Bangladesh</div>
+                    <ul>
+                        <li><strong>Cumulative GPA:</strong> 3.56 / 4.00</li>
+                        <li><strong>Minor:</strong> Economics</li>
+                        <li><strong>Core Coursework:</strong> Data Structures, Algorithms, Database Systems, Computer
+                            Networks, Automata & Computability, Computer Graphics, Linear Algebra, Fourier Analysis.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Research Interests & Skills</h2>
+
+            <div class="cv-entry">
+                <div class="cv-meta">Domains</div>
+                <div class="cv-content">
+                    Machine Learning, Artificial Intelligence, Natural Language Processing, Distributed Systems,
+                    Computational Graphics, and Medical Image Processing.
+                </div>
+            </div>
+            <div class="cv-entry">
+                <div class="cv-meta">Technical</div>
+                <div class="cv-content">
+                    <strong>Languages:</strong> Python, C, JavaScript (ES6+), SQL, HTML/CSS, LaTeX<br>
+                    <strong>Frameworks & APIs:</strong> React, Next.js, Node.js, OpenGL, Tailwind CSS<br>
+                    <strong>Tools:</strong> Git, UNIX environments, Overleaf
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Selected Research & Architecture</h2>
+
+            <div class="cv-entry">
+                <div class="cv-meta">2024 – Present</div>
+                <div class="cv-content">
+                    <h3>CGPACalc.pro: Privacy-Preserving Academic Auditing Suite</h3>
+                    <div class="org">Independent Development</div>
+                    <div class="tech-tags">JavaScript, PDF.js, Chart.js, RegEx</div>
+                    <p>Architected a client-side computational utility that securely parses raw university transcripts
+                        into interactive degree audits. Implemented local parsing logic via <code>PDF.js</code> to
+                        guarantee zero server-side data transmission, ensuring rigorous student data privacy. Integrated
+                        algorithmic retake calculations and dynamic track detection.</p>
+                    <a href="https://cgpacalc.pro.bd" target="_blank">Live Application</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a
+                        href="https://github.com/MonowarHusain/bracu_cgpacalc" target="_blank">Source Code</a>
+                </div>
+            </div>
+
+            <div class="cv-entry">
+                <div class="cv-meta">2023</div>
+                <div class="cv-content">
+                    <h3>Medical SOS: Real-Time Geolocation Infrastructure</h3>
+                    <div class="org">Database Systems Coursework</div>
+                    <div class="tech-tags">Next.js, React, Geolocation API</div>
+                    <p>Engineered an emergency response framework designed to optimize medical assistance routing. The
+                        system utilizes high-precision browser geolocation APIs to facilitate instant SOS alerting and
+                        real-time spatial tracking within a high-stress, accessible user interface.</p>
+                </div>
+            </div>
+
+            <div class="cv-entry">
+                <div class="cv-meta">2023</div>
+                <div class="cv-content">
+                    <h3>Algorithmic 3D Rendering Environments</h3>
+                    <div class="org">Computer Graphics Coursework</div>
+                    <div class="tech-tags">Python, OpenGL</div>
+                    <p>Programmed interactive graphical simulations utilizing raw OpenGL bindings, entirely bypassing
+                        commercial rendering engines. Emphasis was placed on the foundational implementation of Midpoint
+                        Line algorithms, mathematical matrix transformations, and multi-perspective rendering pipelines.
+                    </p>
+                    <a href="https://github.com/MonowarHusain/Tank-Battle-3D" target="_blank">View Code Repository</a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Leadership & Academic Service</h2>
+
+            <div class="cv-entry">
+                <div class="cv-meta">Sep 2024 – Present</div>
+                <div class="cv-content">
+                    <h3>Student Ambassador</h3>
+                    <div class="org">Microsoft Learn</div>
+                    <p>Organize technical workshops and mentor undergraduate cohorts on cloud infrastructure and
+                        software engineering methodologies, acting as a technical liaison between the student body and
+                        industry platforms.</p>
+                </div>
+            </div>
+
+            <div class="cv-entry">
+                <div class="cv-meta">Mar 2024 – Present</div>
+                <div class="cv-content">
+                    <h3>Ambassador</h3>
+                    <div class="org">International Astronomy and Astrophysics Competition</div>
+                    <p>Advocate for scientific literacy and global engagement in applied astrophysics, operating within
+                        an international academic framework.</p>
+                </div>
+            </div>
+
+            <div class="cv-entry">
+                <div class="cv-meta">Mar 2022 – Present</div>
+                <div class="cv-content">
+                    <h3>Co-Founder & Technical Lead</h3>
+                    <div class="org">Search Everything.net</div>
+                    <p>Direct the technical architecture and scaling strategy for a digital services platform, focusing
+                        on backend infrastructure availability and modular tool deployment.</p>
+                </div>
+            </div>
+
+            <div class="cv-entry">
+                <div class="cv-meta">Aug 2025 – Present</div>
+                <div class="cv-content">
+                    <h3>Executive (HR)</h3>
+                    <div class="org">BRAC University History Club</div>
+                    <p>Manage recruitment pipelines, onboarding protocols, and internal communications for university
+                        club operations.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Correspondence</h2>
+            <p>For academic inquiries, research collaborations, or laboratory placements, please transmit your message
+                below or contact me directly via email.</p>
+
+            <div class="correspondence-form">
+                <form id="discord-form">
+                    <div class="form-group">
+                        <label for="sender-info">Investigator / Institution</label>
+                        <input type="text" id="sender-info" required placeholder="Dr. Jane Doe (j.doe@university.edu)">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Inquiry Details</label>
+                        <textarea id="message" required
+                            placeholder="Please detail the nature of your correspondence..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn" id="submit-btn">Transmit Message</button>
+                    <div id="form-status"></div>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        // =======================================================
+        // IMPORTANT: Paste your Discord Webhook URL inside the quotes below
+        // =======================================================
+        const DISCORD_WEBHOOK_URL = "YOUR_DISCORD_WEBHOOK_URL_HERE";
+
+        document.getElementById('discord-form').addEventListener('submit', async function (e) {
+            e.preventDefault();
+
+            const sender = document.getElementById('sender-info').value;
+            const message = document.getElementById('message').value;
+            const statusDiv = document.getElementById('form-status');
+            const submitBtn = document.getElementById('submit-btn');
+
+            if (DISCORD_WEBHOOK_URL === "YOUR_DISCORD_WEBHOOK_URL_HERE" || DISCORD_WEBHOOK_URL.trim() === "") {
+                statusDiv.style.color = "#d73a49"; // GitHub red
+                statusDiv.innerText = "System Error: Webhook configuration missing.";
+                return;
+            }
+
+            submitBtn.innerText = "Transmitting...";
+            submitBtn.disabled = true;
+
+            const payload = {
+                content: `**[Academic Portfolio Inquiry]**\n**From:** ${sender}\n**Message:** ${message}`
+            };
+
+            try {
+                const response = await fetch(DISCORD_WEBHOOK_URL, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+
+                if (response.ok) {
+                    statusDiv.style.color = "#28a745"; // GitHub green
+                    statusDiv.innerText = "Message transmitted successfully.";
+                    document.getElementById('discord-form').reset();
+                } else {
+                    throw new Error('Network protocol error');
+                }
+            } catch (error) {
+                statusDiv.style.color = "#d73a49";
+                statusDiv.innerText = "Transmission failure. Please utilize the direct email link provided above.";
+            } finally {
+                submitBtn.innerText = "Transmit Message";
+                submitBtn.disabled = false;
+            }
+        });
+    </script>
+</body>
+
+</html>
