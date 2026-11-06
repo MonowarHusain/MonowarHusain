@@ -102,3 +102,5 @@ I'm open to software engineering opportunities, full-stack development roles, an
 <sub>Build deliberately. Write cleanly. Keep learning.</sub>
 
 </div>
+
+<img src="koi/koi.gif" width="256" alt="MonowarHusain's koi" />
